@@ -1,7 +1,5 @@
 # json-server
 
-[![Node.js CI](https://github.com/typicode/json-server/actions/workflows/node.js.yml/badge.svg)](https://github.com/typicode/json-server/actions/workflows/node.js.yml)
-
 > [!IMPORTANT]
 > Viewing alpha v1 documentation – usable but expect breaking changes. For stable version, see [here](https://github.com/typicode/json-server/tree/v0)
 
@@ -38,15 +36,15 @@ Create a `db.json` or `db.json5` file
 ```json5
 {
   posts: [
-    { id: '1', title: 'a title', views: 100 },
-    { id: '2', title: 'another title', views: 200 },
+    { id: "1", title: "a title", views: 100 },
+    { id: "2", title: "another title", views: 200 },
   ],
   comments: [
-    { id: '1', text: 'a comment about post 1', postId: '1' },
-    { id: '2', text: 'another comment about post 1', postId: '1' },
+    { id: "1", text: "a comment about post 1", postId: "1" },
+    { id: "2", text: "another comment about post 1", postId: "1" },
   ],
   profile: {
-    name: 'typicode',
+    name: "typicode",
   },
 }
 ```
@@ -72,23 +70,6 @@ $ curl http://localhost:3000/posts/1
 ```
 
 Run `json-server --help` for a list of options
-
-## Sponsors ✨
-
-|                                                                                    Sponsors                                                                                    |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                         <a href="https://mockend.com/" target="_blank"><img src="https://jsonplaceholder.typicode.com/mockend.svg" height="70px"></a>                          |
-| <a href="https://www.storyblok.com/" target="_blank"><img src="https://github.com/typicode/json-server/assets/5502029/c6b10674-4ada-4616-91b8-59d30046b45a" height="40px"></a> |
-|  <a href="https://betterstack.com/" target="_blank"><img src="https://github.com/typicode/json-server/assets/5502029/44679f8f-9671-470d-b77e-26d90b90cbdc" height="40px"></a>  |
-
-[Become a sponsor and have your company logo here](https://github.com/users/typicode/sponsorship)
-
-## Sponsorware
-
-> [!NOTE]
-> This project uses the [Fair Source License](https://fair.io/). Only organizations with 3+ users are kindly asked to contribute a small amount through sponsorship [sponsor](https://github.com/sponsors/typicode) for usage. __This license helps keep the project sustainable and healthy, benefiting everyone.__
-> 
-> For more information, FAQs, and the rationale behind this, visit [https://fair.io/](https://fair.io/).
 
 ## Routes
 
