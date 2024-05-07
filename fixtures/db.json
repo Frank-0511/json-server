@@ -24,7 +24,7 @@
       "administrator": "Honorable",
       "numberOfMembers": 29,
       "accidentRate": 0.1,
-      "status": "Por renovar"
+      "status": "En proceso"
     },
     {
       "id": 3,
@@ -32,7 +32,7 @@
       "businessName": "Edgeblab",
       "ruc": 123456781,
       "currentPlan": "Plan 3",
-      "proposedPlan": "Plan 3",
+      "proposedPlan": "",
       "endOfValidity": "12/31/2022",
       "administrator": "Ms",
       "numberOfMembers": 16,
@@ -50,7 +50,7 @@
       "administrator": "Dr",
       "numberOfMembers": 28,
       "accidentRate": 0.2,
-      "status": "Por renovar"
+      "status": "En proceso"
     },
     {
       "id": 5,
