@@ -1305,7 +1305,7 @@
     "plans": [
       {
         "id": 1,
-        "title": "Plan base",
+        "title": "Plan",
         "current": "C100-5",
         "proposed": "C100-7"
       },
@@ -1314,12 +1314,6 @@
         "title": "Prima Titular",
         "current": "240.00",
         "proposed": "250.00"
-      },
-      {
-        "id": 3,
-        "title": "% Siniestralidad",
-        "current": 0.05,
-        "proposed": 0.1
       }
     ],
     "advantages": [
