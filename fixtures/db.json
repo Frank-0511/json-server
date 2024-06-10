@@ -1302,27 +1302,12 @@
     }
   ],
   "renewal-plan": {
-    "plans": [
-      {
-        "id": 1,
-        "title": "Plan",
-        "current": "C100-5",
-        "proposed": "C100-7"
-      },
-      {
-        "id": 2,
-        "title": "Prima Titular",
-        "current": "240.00",
-        "proposed": "250.00"
-      }
-    ],
-    "advantages": [
-      "Hospitalario con copagos fijos",
-      "Teleconsulta",
-      "Programa Cuídate",
-      "Médico a domicilio",
-      "Receta extendida por diagnóstico crónico"
-    ]
+    "data": {
+      "planActual": "C100-1",
+      "primaActual": 254.2,
+      "planPropuesto": "C100-1",
+      "primaPropuesta": 286
+    }
   },
   "polices-es": [
     {
@@ -1715,5 +1700,12 @@
       "porcComisionBroker": 5,
       "periodoRenov": "202406"
     }
+  ],
+  "benefits": [
+    "Hospitalario con copagos fijos",
+    "Teleconsulta",
+    "Programa Cuídate",
+    "Médico a domicilio",
+    "Receta extendida por diagnóstico crónico"
   ]
 }
