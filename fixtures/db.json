@@ -1701,11 +1701,13 @@
       "periodoRenov": "202406"
     }
   ],
-  "benefits": [
-    "Hospitalario con copagos fijos",
-    "Teleconsulta",
-    "Programa Cuídate",
-    "Médico a domicilio",
-    "Receta extendida por diagnóstico crónico"
-  ]
+  "benefits": {
+    "data": [
+      "Hospitalario con copagos fijos",
+      "Teleconsulta",
+      "Programa Cuídate",
+      "Médico a domicilio",
+      "Receta extendida por diagnóstico crónico"
+    ]
+  }
 }
